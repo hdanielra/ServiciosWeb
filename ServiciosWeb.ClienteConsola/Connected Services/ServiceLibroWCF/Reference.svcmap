@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="efd07d22-7b99-4092-a563-bf27820d7205" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49933/ServicioLibro.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioLibro.xsd" MetadataType="Schema" ID="ce5f9a6a-b571-4814-8bed-71cafc740e30" SourceId="1" SourceUrl="http://localhost:49933/ServicioLibro.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioLibro1.xsd" MetadataType="Schema" ID="3ea86231-9c9b-47cb-a805-4c984d80c84f" SourceId="1" SourceUrl="http://localhost:49933/ServicioLibro.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioLibro2.xsd" MetadataType="Schema" ID="7113de9e-a626-462b-a0c5-de622392aeb6" SourceId="1" SourceUrl="http://localhost:49933/ServicioLibro.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioLibro.wsdl" MetadataType="Wsdl" ID="504f93a6-de57-4dc3-a834-3797cf235c61" SourceId="1" SourceUrl="http://localhost:49933/ServicioLibro.svc?wsdl" />
+    <MetadataFile FileName="ServicioLibro.disco" MetadataType="Disco" ID="4a33025b-2618-4b02-a539-eec098b0b520" SourceId="1" SourceUrl="http://localhost:49933/ServicioLibro.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

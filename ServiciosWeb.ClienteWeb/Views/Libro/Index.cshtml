@@ -1,0 +1,33 @@
+﻿@*tuve que agregar manualmente en el web.config de libro, el namespace dominio para usar Libro*@
+@model List<Libro>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Listado de Libros - Higea</h2>
+
+<hr />
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Titulo</td>
+            <td>Autor</td>
+            <td>Idioma</td>
+            <td>Disponible</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var libro in Model)
+        {
+            <tr>
+                @* con Shift + Alt, puedo escribir en varios renglones a la vez, por ej @libro *@
+                <td>@libro.idLibro</td>
+                <td>@libro.Titulo</td>
+                <td>@libro.Autor</td>
+                <td>@libro.Idioma</td>
+                <td>@libro.Disponible</td>
+            </tr>
+        }
+    </tbody>
+</table>
